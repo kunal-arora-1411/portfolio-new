@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:kunal-arora-1411.github.io)",
+      "Bash(npm init -y)",
+      "Bash(npm install:*)",
+      "Bash(copy \"image.jpg\" \"public\\assets\\profile.jpg\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
