@@ -3,8 +3,8 @@ import styles from './Experience.module.css'
 const experiences = [
   {
     company: 'Foton Labs',
-    location: 'Los Angeles',
-    role: 'AI & ML Engineer',
+    location: 'Los Angeles (remote)',
+    role: 'AI & ML Engineer (contract based)',
     period: 'Oct 2025 – Present',
     highlights: [
       'Worked on project GRACE, a lifelike, interactive AI companion with real-time 3D visuals',

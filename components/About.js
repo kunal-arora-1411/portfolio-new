@@ -44,7 +44,7 @@ export default function About() {
 
           <div className={styles.stats}>
             <div className={styles.stat}>
-              <h3>3+</h3>
+              <h3>~1</h3>
               <p>Years Experience</p>
             </div>
             <div className={styles.stat}>
