@@ -8,7 +8,7 @@ export default function About() {
         <div className={styles.imageContainer}>
           <div className={styles.imageWrapper}>
             <Image
-              src="/assets/profile.jpg"
+              src="https://github.com/kunal-arora-1411/portfolio-new/blob/main/image.jpg"
               alt="Kunal Arora"
               width={400}
               height={400}
