@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // output: 'export',
-  // basePath: '/portfolio-new',
+  output: process.env.GITHUB_ACTIONS ? 'export' : undefined,
+  basePath: process.env.GITHUB_ACTIONS ? '/portfolio-new' : '',
   images: {
     unoptimized: true,
   },
