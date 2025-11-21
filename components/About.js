@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './About.module.css'
+import profilePic from '../public/assets/profile.jpg'
 
 export default function About() {
   return (
@@ -8,11 +9,12 @@ export default function About() {
         <div className={styles.imageContainer}>
           <div className={styles.imageWrapper}>
             <Image
-              src="https://github.com/kunal-arora-1411/portfolio-new/blob/main/image.jpg"
+              src={profilePic}
               alt="Kunal Arora"
               width={400}
               height={400}
               className={styles.profileImage}
+              placeholder="blur"
             />
             <div className={styles.imageBorder}></div>
           </div>
